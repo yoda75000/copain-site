@@ -54,13 +54,23 @@
   jamais envoyés sur nos serveurs. Supprimer l'application les efface définitivement.</p>
 
   <h2>4. La génération d'un cours</h2>
-  <p>Quand tu génères un cours, les photos de tes notes sont transmises de manière chiffrée
+  <p>Quand tu génères un cours — <strong>et seulement à ce moment-là, après ton accord affiché
+  dans l'application avant le premier envoi</strong> — les photos de tes notes sont compressées
+  (ce qui retire leurs métadonnées : position, appareil…), transmises de manière chiffrée
   (HTTPS) à notre serveur (hébergé par Render, région Union européenne — Francfort), qui les
   relaie au service d'intelligence artificielle
   <a href="https://www.anthropic.com/legal/privacy">Anthropic (Claude)</a> pour rédiger le cours.</p>
   <ul>
+    <li>Seuls partent : les photos choisies, la matière et le niveau scolaire. <strong>Jamais
+    ton nom, ton prénom ou ta classe</strong> (ils ne servent que localement, pour l'export PDF).</li>
     <li>Notre serveur ne conserve <strong>ni les photos, ni les cours générés</strong> ; il ne
     journalise que des mesures techniques anonymes (durée, volume) pour le suivi du service.</li>
+    <li>Anthropic supprime les entrées et sorties de son API commerciale
+    <strong>sous 30 jours</strong> dans le cas standard (voir sa politique).</li>
+    <li>Tu peux revoir ton accord à tout moment dans l'application :
+    Réglages → Confidentialité et IA. Sans accord, tes cours existants, l'audio, les
+    flashcards et les quiz continuent de fonctionner — seule la création de nouveaux cours
+    est en pause.</li>
     <li>Conseil : évite de photographier des documents contenant des informations personnelles
     sensibles — l'app est faite pour des notes de cours.</li>
   </ul>
